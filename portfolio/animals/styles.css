@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    background-color: black;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid gray;
+}
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: #282929;
+}
+
+nav {
+    background-color: #04bfa1;
+    border-top: 2px solid #133e36;
+    border-bottom: 2px solid #133e36;
+    text-decoration: none;
+}
+
+/* Vertical Navigation Bar */
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+nav a:active {
+    color: greenyellow;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 0;
+}
+
+.header-image {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+}
+
+.gallery .preview {
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.main {
+    padding-top: 1rem;
+    color: #04bfa1;
+}
+
+.header {
+    background-color: #1c9988;
+}
+
+.animals__body__icon {
+    font-size: 5rem;
+    color: #04bfa1;
+    padding: 1rem;
+}
+
+.l_background {
+    background-color: #04bfa1;
+}
+
+.m_top {
+    margin-top: 1rem;
+}
+
+.f_color {
+    color: white;
+    padding-top: 1rem;
+}
+
+.z_margin {
+    margin: 0;
+}
+
+
+
+/* CSS For Tablets */
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+/* CSS For Smartphones */
+
+@media only screen and (max-width: 768px){
+    h1 {
+        font-size: 1.5em;
+    }
+}
