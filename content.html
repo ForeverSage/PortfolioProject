@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <meta
+      name="description"
+      content="Tyler website portfolio home page index"
+    />
+    <title>My Website Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+	<body>
+    <div class="header__container">
+      <header>
+        <a class="header__content" href="#">
+          <object class="header__icon" type="image/svg+xml" data="images/header_icon.svg" height="149" width="118">
+						<img src="images/header_icon__black.png" alt="Logo" height="149" width="118">
+				</object>
+          <!-- <img class="header__icon" src="images/header_icon__green.png" /> -->
+          <img
+            class="header__text"
+            src="images/header_1__dark.png"
+            alt="Tyler Gajdocek" />
+        </a>
+        <div class="oc__trigger">
+          <a class="oc__trigger__link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="fa fa-regular fa-bars"></i>
+          </a>
+        </div>
+      </header>
+
+      <nav class="oc__content offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="oc__header offcanvas-header">
+          <div class="offcanvas-title" id="offcanvasLabel" >
+            <img src="images/header_icon__black--sm.png" alt="Logo" height="50" width="40">
+          </div>
+          <!-- <h5 class="offcanvas-title" id="offcanvasLabel">Navigation</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <ul class="oc__body offcanvas-body">
+          <li class="oc__item"><a class="oc__link" href="index.html">About Me</a></li>
+          <li class="oc__item"><a class="oc__link" href="resume.html">Resume</a></li>
+          <li class="oc__item"><a class="oc__link" href="content.html">HTML/CSS</a></li>
+          <li class="oc__item"><a class="oc__link" href="portfolio.html">Portfolio</a></li>
+          <li class="oc__item"><a class="oc__link" href="gallery.html">Gallery</a></li>
+          <li class="oc__item"><a class="oc__link" href="javascript.html">Javascript</a></li>
+        </ul>
+      </nav>
+    </div>
+
+			<div id="homehero"></div>
+
+			<main class="main">
+				<h2 class="table">Bluechip NFTs</h2>
+				<p class="center">I made this table with HTML and CSS for a college course. This table shows stats for some of the top NFT projects.
+					<table class="table table-striped table-bordered">
+						<tr>
+							<th>Project</th>
+							<th>Description</th>
+							<th>Floor Price</th>
+							<th>Collection Quantity</th>
+							<th>Total Volume</th>
+						</tr>
+						<tr>
+							<td><a href="https://opensea.io/collection/clonex">Clone X</a></td>
+							<td>20,000 next-gen Avatars, by RTFKT<br /> and Takashi Murakami</td>
+							<td>3.44 ETH</td>
+							<td>19,452</td>
+							<td>359K ETH</td>
+						</tr>
+						<tr>
+							<td><a href="https://opensea.io/collection/cryptopunks">CryptoPunks</a></td>
+							<td>10,000 unique collectible characters with proof of ownership stored on the Ethereum blockchain</td>
+							<td>63.95 ETH</td>
+							<td>10,000</td>
+							<td>1.1M ETH</td>
+						</tr>
+						<tr>
+							<td><a href="https://opensea.io/collection/boredapeyachtclub">BAYC</a></td>
+							<td>Bored Ape Yacht Club is a collection of 10,000<br /> unique Bored Ape NFTs</td>
+							<td>63.25 ETH</td>
+							<td>10,000</td>
+							<td>940K ETH</td>
+						</tr>
+						<tr>
+							<td><a href="https://opensea.io/collection/mutant-ape-yacht-club">MAYC</a></td>
+							<td>Mutant Apes can only be created by exposing an existing Bored Ape to a vial of MUTANT SERUM</td>
+							<td>15.24 ETH</td>
+							<td>19,457</td>
+							<td>682K ETH</td>
+						</tr>
+						<tr>
+							<td><a href="https://opensea.io/collection/azuki">Azuki</a></td>
+							<td>Azuki is a collection of anime-styled avatars.<br />"A brand for the metaverse. By the community." </td>
+							<td>14.93 ETH</td>
+							<td>10,000</td>
+							<td>409K ETH</td>
+						</tr>
+					</table>
+				</p>
+        <br />
+        <br />
+				<div class="widget">
+          <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="1027" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="false" data-stats="USD"></div>
+				</div>
+        <br />
+        <hr>
+        <br />
+        <h2 class="center">Media</h2>
+
+        <br />
+        <br />
+        <h3>SoundCloud</h3>
+        <p>
+          Bibio has been one of my favorite artists for over a decade now. He
+          recently came out with his 10th full length album, aptly named 'BIB10'.
+        </p>
+        <iframe
+          class="fullWidth"
+          height="200"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1316721328&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        ></iframe>
+        <div
+          style="
+            font-size: 10px;
+            color: #cccccc;
+            line-break: anywhere;
+            word-break: normal;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+              Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+            font-weight: 100;
+          "
+        >
+          <a
+            href="https://soundcloud.com/bibio"
+            title="Bibio"
+            target="_blank"
+            style="color: #cccccc; text-decoration: none"
+            >Bibio</a
+          >
+          ·
+          <a
+            href="https://soundcloud.com/bibio/even-more-excuses"
+            title="Even More Excuses"
+            target="_blank"
+            style="color: #cccccc; text-decoration: none"
+            >Even More Excuses</a
+          >
+        </div>
+        <br />
+        <hr />
+
+        <h3>YouTube</h3>
+        <p>
+          Skateboarding is one of my favorite hobbies and this is one of my
+          favorite skaters.
+        </p>
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/YW68edzbczM?start=89"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <br />
+        <br />
+        <hr />
+
+
+        <h3>Google Maps</h3>
+        <p>This is a Google Map of Wilson Tool Intl.</p>
+        <iframe
+          class="fullWidth"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2814.5180993703298!2d-93.0036442482008!3d45.136100263193335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b2da5a422f09b9%3A0x5a2983ed127e6778!2sWilson%20Tool%20International!5e0!3m2!1sen!2sus!4v1679323590620!5m2!1sen!2sus"
+          width="400"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <div class="mt-4">
+          <h2 class="text-center">Contact Me</h2>
+          <div class="fb-form">
+            <form
+              method="post"
+              action="mailto:tylerfrommn@gmail.com"
+            >
+              <br />
+              <div class="form-floating mb-3">
+                <input class="form-control" type="text" id="first_name" name="first_name" placeholder="First Name" required />
+                <label for="first_name">First Name</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input class="form-control" type="text" id="last_name" name="last_name" placeholder="Last Name" required />
+                <label for="last_name">Last Name</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input class="form-control" type="email" id="email" name="email" placeholder="Email" required />
+                <label for="email">Email</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input class="form-control" type="tel" id="phone" name="phone" placeholder="Phone" />
+                <label for="phone">Phone</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <textarea class="form-control" id="comments" name="comments" placeholder="Your Comments"></textarea>
+                <label for="comments">Your Comments</label>
+              </div>
+
+              <button class="fb-form__btn btn btn-primary" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+			</main>
+
+			<footer>
+				<div class="footer__content">
+					<p>
+						<a class="footer__text"
+						   href="https://sagevibes.crypto"
+						   target="_blank">
+							SageVibes
+						</a>
+					</p>
+					<p>
+						<a class="footer__text"
+						   href="mailto:TylerFromMN@gmail.com"
+						   target="_blank">
+							Email Me
+						</a>
+						&bull;
+						<a class="footer__text" href="tel:6124239171">Call Me</a> &bull;
+						<a class="footer__text" href="sms:6124239171">Text Me</a>
+					</p>
+					<small>&copy; 2023 Tyler Gajdocek. All rights reserved.</small>
+				</div>
+			</footer>
+	</body>
+</html>
